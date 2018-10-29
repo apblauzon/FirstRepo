@@ -1,0 +1,140 @@
+.career-apply-page4{
+	float: left;
+	width: 94%;
+	float: left;
+	height: 430px;
+	margin: 10px 3% 10px 3%;
+	background-color: white;
+}
+
+.career-apply-title{
+	float: left;
+	margin: 25px 5% 15px 5%;
+	width: 90%;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 6px;
+	color:#c31432;
+	font-weight: bold;
+}
+
+.career-apply-location, .career-apply-experience, .career-apply-salary, .career-apply-job-qualification{
+	margin: 25px 5% 15px 5%;
+	width: 90%;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 6px;
+	color:black;
+	font-weight: bold;
+	float: left;
+}
+
+.career-apply-experience, .career-apply-salary{
+	margin-top: -15px;
+}
+.career-apply-job-qualification{
+	margin-top: 5px;
+}
+
+.career-apply-job-qualification-content{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	color:black;
+	font-weight: bold;
+	margin: -15px 6% 15px 6%;
+	width: 88%;
+	line-height: 25px;
+	float: left;
+}
+
+.career-apply-page4-form{
+	float: left;
+	width: 94%;
+	float: left;
+	height: 680px;
+	margin: 10px 3% 10px 3%;
+	background-color: white;
+	border-radius: 50px;
+}
+
+.career-form .name-career{
+	float: left;
+	width: 70%;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 20px;
+	padding-left: 15px;
+	font-size: 25px;
+	color: white;
+	background-color:#240b36;
+	margin-left: 13%;
+	margin-right: 13%;
+}
+
+.career-form .message{
+	float: left;
+	width: 70%;
+	height: 340px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 20px;
+	padding-left: 15px;
+	font-size: 25px;
+	color: white;
+	background-color:#240b36;
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 25px;
+
+}
+
+.career-form .upload{
+	float: left;
+	width: 70%;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 15px;
+	font-size: 25px;
+	color: white;
+	margin-left: 11%;
+	margin-right: 13%;
+	margin-top: 25px;
+}
+
+.career-form .button-contact{
+	float: left;
+	width: 20%;
+	margin-left: 40%;
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 1%;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	background-color:#c31432;
+	margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 700px){
+.career-apply-page4{
+	height: 450px;
+}
+.career-form .button-contact{
+	width: 60%;
+	margin-left: 20%;
+}
+}
+@media only screen and (max-width: 400px){
+	.career-apply-page4{
+		height: 650px;
+	}
+
+.career-form .button-contact{
+	width: 50%;
+	margin-left: 25%;
+}
+}

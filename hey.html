@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	body{
+		margin: 0;
+	}
+	
+	input[type=text], select {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+
+	input[type=submit]:hover {
+		background-color: #45a049;
+	}
+	img{
+		float:left;
+		width:80px;
+		height:60px;
+		margin-right:15px;
+	}
+
+
+	.find {
+		border-radius: 5px;
+		height:100%;
+		width:50%:
+		background-color: black;
+		margin: 0 30px 0 30px;
+	}
+	.result {
+		width:50%;
+		border-radius: 20px;
+		background-color: #a9a9a9;
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.job {
+		border-radius: 20px;
+		background-color: #cdcdc1;
+		padding: 20px;
+		margin: 10px auto;
+	}
+	.form{
+		width:50%;
+		border-radius: 20px;
+		background-color: #cdcdc1;
+		padding: 20px;
+		margin: 0 auto;
+	}
+	
+	.button1 {
+		width: 100%;
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	
+	
+	
+	@media screen and (max-width:800px){
+		
+		
+		img#necktie {
+		display: none;
+		}
+		
+		
+	}
+	
+</style>
+</head>
+<body>
+<div class="find">
+
+
+<div class="form">
+	<div class="jobtext">
+	<h2><center>FIND A JOB</center></h2>
+	</div>
+
+<label for="keyword">Keyword</label>
+    <input type="text"	name="keyword">
+
+    <label for="job field">Job Field</label>
+    <select id="job" name="joblist">
+	  <option value="All Specializations">All Specializations</option>
+      <option value="Accounting/Finance">Accounting/Finance</option>
+      <option value="Admin/HumanResouces">Admin/HumanResouces</option>
+      <option value="Arts/Media/Communication">Arts/Media/Communication</option>
+	  <option value="Building/Construction">Building/Construction</option>
+      <option value="Computer/Information Technology">Computer/Information Technology</option>
+      <option value="Education/Training">Education/Training</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Healthcare">Healthcare</option>
+      <option value="Hotel/Restaurant">Hotel/Restaurant</option>
+      <option value="Manufacturing">Manufacturing</option>
+      <option value="Science">Science</option>
+      <option value="Sales/Marketing">Sales/Marketing</option>
+    </select>
+	
+	<label for="location">Location</label>
+    <select id="loc" name="location">
+      <option value="Philippines">Philippines</option>
+      <option value="Armm">Armm</option>
+      <option value="Bicol Region">Bicol Region</option>
+	  <option value="C.A.R">C.A.R</option>
+      <option value="Cagayan Valley">Cagayan Valley</option>
+      <option value="Calabarzon & Mimaropa">Calabarzon & Mimaropa</option>
+      <option value="Caraga">Caraga</option>
+      <option value="Central Luzon">Central Luzon</option>
+      <option value="Central Visayas">Central Visayas</option>
+      <option value="Davao">Davao</option>
+      <option value="Eastern Visayas">Eastern Visayas</option>
+      <option value="Ilocos Region">Ilocos Region</option>
+      <option value="National Capital Reg">National Capital Reg</option>
+      <option value="Northern Mindanao">Northern Mindanao</option>
+      <option value="Socckargen">Socckargen</option>
+      <option value="Western Visayas">Western Visayas</option>
+      <option value="Zamboanga">Zamboanga</option>
+    </select>
+</form>
+<a href="Searchresult1.html"><button class="button1">Submit</button></a>
+</div>
+	
+
+
+<div class="result">
+	<div class="searchtext">
+	<h3><center>SEARCH RESULT (50 Jobs Found)</center></h3> 
+	</div>
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Civil Engineer</p>
+	<p>National Capital Reg</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Sr. Manager, IT Business Operations</p>
+	<p>National Capital Reg</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Area Sales Supervisor</p>
+	<p>Pasig City (National Capital Reg)</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Sales Specialist</p>
+	<p>Quezon City (National Capital Reg)</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	MARKETING ASSISTANT</p>
+	<p>Manila City (National Capital Reg)</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Online Advertiser</p>
+	<p>Laguna (Others) (Calabarzon & Mimaropa)</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Sales Engineer </p>
+	<p>Pampanga (Others) (Central Luzon) - Clark</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	Purchasing Technical Coordinator</p>
+	<p>Laguna (Others) (Calabarzon & Mimaropa)</p>
+	<input type="button" value="apply"/>
+	</div>
+	
+	<div class="job">
+	<p><img id="necktie" src="necktie.png">
+	PURCHASING ASSISTANT MANAGER</p>
+	<p>Cavite (Calabarzon & Mimaropa)</p>
+	<input type="button" value="apply"/>
+	</div>
+	<div class="numbers">
+
+	<a href="Searchresult4.html"><button>PREV</button></a>
+<a href="Searchresult1.html"><button>1</button></a>
+<a href="Searchresult2.html"><button>2</button></a>
+<a href="Searchresult3.html"><button>3</button></a>
+<a href="Searchresult4.html"><button>4</button></a>&nbsp 5 &nbsp
+
+</div>
+</div>
+	
+
+</div>
+
+
+</body>
+</html>
